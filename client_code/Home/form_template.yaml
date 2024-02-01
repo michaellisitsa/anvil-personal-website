@@ -8,25 +8,10 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
-  - name: NavBar
+  - name: nav_bar_container
     properties: {}
     type: FlowPanel
-    layout_properties: {grid_position: 'FPRSVF,YPHUQH', full_width_row: true}
-    components:
-    - name: home_link
-      properties: {text: Home}
-      type: Link
-      event_bindings: {click: home_link_click}
-    - name: projects_link
-      properties: {text: My Projects}
-      type: Link
-      event_bindings: {click: projects_link_click}
-      components: []
-    - name: projects_link_copy
-      properties: {text: Times Table}
-      type: Link
-      event_bindings: {click: projects_link_click}
-      layout_properties: {}
+    layout_properties: {grid_position: 'IYNNYZ,GYQFKS'}
   - name: outlined_card_1
     properties: {role: outlined-card}
     type: ColumnPanel

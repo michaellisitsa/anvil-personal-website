@@ -1,0 +1,18 @@
+container: {type: ColumnPanel}
+components:
+- name: home_link
+  properties: {text: Home}
+  type: Link
+  layout_properties: {grid_position: 'CEFFVJ,WYMNUC'}
+  event_bindings: {click: home_link_click}
+- name: projects_link
+  properties: {text: Projects}
+  type: Link
+  layout_properties: {grid_position: 'CEFFVJ,SOUTQF'}
+  event_bindings: {click: projects_link_click}
+- name: times_table_link
+  properties: {text: Times Tables}
+  type: Link
+  layout_properties: {grid_position: 'CEFFVJ,WANXPK'}
+  event_bindings: {click: times_table_link_click}
+is_package: true

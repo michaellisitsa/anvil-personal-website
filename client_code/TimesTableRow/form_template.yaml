@@ -20,5 +20,5 @@ components:
     type: Label
     layout_properties: {grid_position: 'DEKTFG,LKIXYD'}
     data_bindings:
-    - {property: text, code: 'int(self.item[''base'']) * int(self.item[''number''])',
+    - {property: text, code: '"= " + str(int(self.item[''base'']) * int(self.item[''number'']))',
       writeback: false}
