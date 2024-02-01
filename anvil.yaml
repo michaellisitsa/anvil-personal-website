@@ -4,10 +4,11 @@ services:
   client_config: {}
   server_config: {}
 startup: {type: form, module: Home}
-package_name: M3_App_3
+package_name: Personal_Website
 allow_embedding: false
-name: M3 App 3
+name: Personal Website
 runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+metadata: {title: My personal website}
 startup_form: null
 db_schema:
   projects:

@@ -21,6 +21,12 @@ components:
       properties: {text: My Projects}
       type: Link
       event_bindings: {click: projects_link_click}
+      components: []
+    - name: projects_link_copy
+      properties: {text: Times Table}
+      type: Link
+      event_bindings: {click: projects_link_click}
+      layout_properties: {}
   - name: outlined_card_1
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -34,6 +40,10 @@ components:
       properties: {text: I am a software developer.  I have 2 kids and love riding my bike}
       type: Label
       layout_properties: {grid_position: 'XHGQYH,MITPPU'}
+  - name: double_or_triple_list
+    properties: {item_template: null}
+    type: RepeatingPanel
+    layout_properties: {grid_position: 'BDDYYE,FKPDUH'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
